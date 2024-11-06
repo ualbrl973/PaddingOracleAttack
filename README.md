@@ -1,6 +1,6 @@
 # Padding Oracle Attack
 
-This project implements a Padding Oracle Attack in Java. The attack targets a block cipher encrypted message and uses an oracle to verify padding correctness, enabling the decryption of the ciphertext without needing the secret key.
+This project implements a Padding Oracle Attack in Java for the class Information Security from Kyungpook National University. The attack targets a block cipher encrypted message and uses an oracle to verify padding correctness, enabling the decryption of the ciphertext without needing the secret key.
 
 ## Description
 
