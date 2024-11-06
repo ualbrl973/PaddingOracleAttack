@@ -38,6 +38,7 @@ decryptedHex = "0x" + decryptedHex;  // Add 0x prefix to match original format
 
 // Output the results
 printDecryptedText(decryptedHex, iv);
+
 ```
 ### Compiling and executing
 
