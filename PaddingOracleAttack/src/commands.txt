@@ -1,0 +1,3 @@
+cd C:\WORKSPACE\PaddingOracleAttack\src
+javac -cp pad_oracle.jar;bcprov-jdk15-130.jar p_SB202400516.java
+java -cp .;pad_oracle.jar;bcprov-jdk15-130.jar p_SB202400516 0xe584debd2abad5b3 0xcbd746544cdadf30
