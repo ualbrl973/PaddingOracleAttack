@@ -50,6 +50,12 @@ java -cp .;pad_oracle.jar;bcprov-jdk15-130.jar p_SB202400516 0xe584debd2abad5b3 
 ```
 Replace the example hexadecimal values 0xe584debd2abad5b3 and 0xcbd746544cdadf30 with your own IV and encrypted ciphertext.
 
+Ensure you have the following JAR files in your project:
+- `pad_oracle.jar`
+- `bcprov-jdk15-130.jar`
+
+These JAR files are necessary for cryptographic operations and interacting with the oracle.
+
 ## Author
 
 **Bruno Ramirez Ledesma**  
