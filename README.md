@@ -48,7 +48,13 @@ To compile the Java source code, navigate to the `src` directory and use the fol
 
 ```bash
 javac -cp pad_oracle.jar;bcprov-jdk15-130.jar p_SB202400516.java
+
+```
+
+Then, execute using the following command:
+```bash
 java -cp .;pad_oracle.jar;bcprov-jdk15-130.jar p_SB202400516 0xe584debd2abad5b3 0xcbd746544cdadf30
+
 ```
 Replace the example hexadecimal values 0xe584debd2abad5b3 and 0xcbd746544cdadf30 with your own IV and encrypted ciphertext.
 
