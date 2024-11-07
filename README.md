@@ -42,6 +42,8 @@ printDecryptedText(decryptedHex, iv);
 ```
 ### Compiling and executing
 
+First, clone this repository to your local machine.
+
 To compile the Java source code, navigate to the `src` directory and use the following command:
 
 ```bash
